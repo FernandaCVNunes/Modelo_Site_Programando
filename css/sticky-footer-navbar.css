@@ -1,0 +1,282 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 100px 15px 80px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    font-size: 19px;
+    color: #000;
+    text-align: justify;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo p{
+    font-size: 36px;
+}
+
+.logo #pfooter{
+    font-size: 22px;
+    padding-top: 18px;
+    color: black;
+}
+
+.logo:hover{
+    border:  2px solid rgb(41,163,251);
+}
+
+.imgback img{
+    width: 100%;
+}
+
+.metadenav{
+    width: 100%;
+}
+
+.metadenav a{
+    float: right;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.metadenav ul{
+    float: right;
+}
+
+footer ul li a,footer ul li a:hover{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footerTelefone{
+    font-size: 19px;
+    background-color: rgb(245,245,245);
+    border: 2px solid rgb(195,195,195);
+    color: rgb(80,80,80);
+    padding: 15px;
+    margin-top: 45px;
+}
+
+.footerTelefone div{
+    width: 100%;
+    margin: auto;
+}
+
+.footerTelefone span{
+    font-size: 32px;
+    color: rgb(70,70,70);
+    
+}
+
+footer .row{
+    padding: 40px;
+    border-top: 2px solid rgb(205,205,205);
+    border-bottom: 2px solid rgb(205,205,205);
+}
+
+footer .divisao{
+    border-right: 2px solid rgb(205,205,205);
+}
+
+footer p{
+    padding-top: 10px;
+}
+/*Pagina Sobre Nos*/
+.imgTrab{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.metadeSobre{
+    width: 100%;
+}
+
+.metadeSobre p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.imgSobre{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+/*Pagina Contato*/
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(41,163,251);
+    padding: 20px;
+}
+
+.contatoDestaque{
+    width: 100%;
+}
+
+.contatoDestaque h3{
+    color: rgb(84,84,84);
+    font-weight: bold;
+}
+
+.contatoDestaque p{
+    font-size: 33px;
+}
+
+.contatoHorario, .contatoHorario h3, .contatoHorario p{
+    font-size: 24px;
+}
+
+.contatoHorario p{
+    color: rgb(120,120,120)
+}
+
+.contatoHorario h3{
+    font-weight: bold;
+    color: black;
+}
+
+.logoRedes{
+    width: 50px;
+}
+
+.ContainerFormContato{
+    margin-top: 150px;
+    font-size: 24px;
+}
+
+.ContainerFormContato textarea{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ContainerFormContato textarea, 
+.ContainerFormContato input[type=text], 
+.ContainerFormContato input[type=email]{
+    background-color: rgb(246,246,246);
+    padding: 10px;
+    border: 1px solid rgb(220,220,220);
+    color: rgb(180,180,180);
+}
+
+.ContainerFormContato input[type=text], 
+.ContainerFormContato input[type=email]{
+    width: 255px;
+}
+
+.ContainerFormContato input[type=email]{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ContainerFormContato input[type=submit]{
+    color: white;
+    background-color: rgb(240,156,37);
+    padding: 15px 35px;
+    border: none;
+}
+
+/*Pagina Consultoria*/
+
+.imgConsultoria{
+    width: 150px;
+    height: 150px;
+}
+.metadeConsultoria p{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 26px;
+    padding: 20px;
+}
+.contatoConsultoria {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.contatoConsultoria h3{
+    font-size: 23px;
+    padding: 10px;
+}
+
+/*Pagina Trabalhos*/
+.imgSites{
+    padding: 5px;
+    border: 2px solid white;
+    width: 100%;
+}
+
+#imgSiteRef{
+    width: 100%;
+}
+
+.metadeTrabalhos {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.tituloTrabalhos h4{
+    color: rgb(120,120,120);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(180,180,180);
+    margin-top: 80px;
+    width: 100%;
+}
+/*
+https://getbootstrap.com/docs/3.4/css/#grid-media-queries consultamos o código para estrutura de grid e tamanhos de telas e resoluções 
+
+    TABLET
+@media (min-width: 768px) and @media (min-width: 992px){ 
+    aqui definimos as caracteristicas para TABLET
+}
+
+    SMARTHPHONE
+@media (max-width: 768px){ 
+    aqui definimos as caracteristicas para SMARTHPHONE
+
+    .nav>li>a{ Aqui acessammos os componentes pela ordem definima no exemplo }
+
+}
+
+// Adcionar a imagem como fundo e com texto.
+Para escrever sobre a imagem o ideal é colocar a imagem como backgound-image,
+e add uma div para add o texto, depois add uma classe utilizando um background-color para dar destaque e a opacity: 0.5(50%) ou 0.7(70%) e assim ir textando até o necessário.
+
+*/
